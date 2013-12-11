@@ -43,31 +43,34 @@ public final class R {
         public static final int wrong=0x7f020010;
     }
     public static final class id {
-        public static final int action_settings=0x7f09000f;
-        public static final int btn_close_popup=0x7f09000d;
+        public static final int action_settings=0x7f090011;
+        public static final int btn_close_popup=0x7f09000f;
+        public static final int help=0x7f090008;
         public static final int high=0x7f090006;
-        public static final int instructions=0x7f090009;
+        public static final int instructions=0x7f09000b;
         public static final int low=0x7f090007;
-        public static final int playAgain=0x7f090008;
-        public static final int popup_element=0x7f09000a;
+        public static final int play=0x7f090009;
+        public static final int playAgain=0x7f09000a;
+        public static final int popup_element=0x7f09000c;
         public static final int randomFrontView=0x7f090002;
         public static final int randomFrontView2=0x7f090005;
         public static final int randomView=0x7f090003;
         public static final int randomView2=0x7f090004;
         public static final int scoreView=0x7f090001;
-        public static final int splashScreenImage=0x7f09000e;
+        public static final int splashScreenImage=0x7f090010;
         public static final int textView1=0x7f090000;
-        public static final int txtView1=0x7f09000b;
-        public static final int txtView2=0x7f09000c;
+        public static final int txtView1=0x7f09000d;
+        public static final int txtView2=0x7f09000e;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int fadein=0x7f030001;
-        public static final int fadeout=0x7f030002;
-        public static final int gameover=0x7f030003;
-        public static final int instructions=0x7f030004;
-        public static final int screen_popup=0x7f030005;
-        public static final int splashscreen=0x7f030006;
+        public static final int activity_guess=0x7f030000;
+        public static final int activity_main=0x7f030001;
+        public static final int fadein=0x7f030002;
+        public static final int fadeout=0x7f030003;
+        public static final int gameover=0x7f030004;
+        public static final int instructions=0x7f030005;
+        public static final int screen_popup=0x7f030006;
+        public static final int splashscreen=0x7f030007;
     }
     public static final class menu {
         public static final int main=0x7f080000;
@@ -76,12 +79,14 @@ public final class R {
         public static final int action_settings=0x7f060001;
         public static final int app_name=0x7f060000;
         public static final int edit_message=0x7f060003;
-        public static final int gameover=0x7f060006;
+        public static final int gameover=0x7f060008;
         public static final int hello_world=0x7f060002;
+        public static final int help=0x7f060006;
         public static final int high=0x7f060004;
-        public static final int instructions=0x7f060008;
+        public static final int instructions=0x7f06000a;
         public static final int low=0x7f060005;
-        public static final int playagain=0x7f060007;
+        public static final int play=0x7f060007;
+        public static final int playagain=0x7f060009;
     }
     public static final class style {
         /** 

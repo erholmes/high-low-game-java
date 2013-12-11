@@ -5,24 +5,6 @@
     android:layout_height="match_parent"
     android:background="#000000"
      >
-
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="25sp"
-        android:layout_centerHorizontal="true"
-        android:text="@string/hello_world" />
-    
-    <TextView 
-        android:id="@+id/scoreView"
-        android:layout_below="@+id/textView1"
-        android:layout_marginTop="20sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="25sp"
-        android:layout_centerHorizontal="true"
-        />
     
     <ImageView 
         android:id="@+id/randomFrontView"
@@ -35,41 +17,8 @@
         android:layout_marginTop="20sp"
         />
     
-    <ImageView 
-        android:id="@+id/randomView"
-        android:layout_width="120sp"
-        android:layout_height="191sp"
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
-        android:layout_marginRight="10sp"
-        android:textSize="100sp"
-        android:layout_marginTop="20sp"
-        />
-    
-    <ImageView 
-        android:id="@+id/randomView2"
-        android:layout_width="120sp"
-        android:layout_height="191sp"
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
-        android:layout_marginRight="10sp"
-        android:textSize="100sp"
-        android:layout_marginTop="20sp"
-        />
-    
-    <ImageView 
-        android:id="@+id/randomFrontView2"
-        android:layout_width="120sp"
-        android:layout_height="191sp"
-        android:layout_alignParentRight="true"
-        android:layout_marginRight="10sp"
-        android:layout_centerVertical="true"
-        android:textSize="100sp"
-        android:layout_marginTop="20sp"
-        />
-    
     <Button 
-        android:id="@+id/high"
+        android:id="@+id/help"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -77,12 +26,13 @@
         android:layout_marginLeft="10sp"
         android:layout_marginBottom="10sp"
         android:textSize="25sp"
-        android:text="@string/high"
+        android:text="@string/help"
         android:layout_marginTop="20sp"
+        android:onClick="help"
         />
     
     <Button 
-        android:id="@+id/low"
+        android:id="@+id/play"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -90,8 +40,9 @@
         android:layout_marginRight="10sp"
         android:layout_marginBottom="10sp"
         android:textSize="25sp"
-        android:text="@string/low"
+        android:text="@string/play"
         android:layout_marginTop="20sp"
+        android:onClick="play"
         />
     
 </RelativeLayout>

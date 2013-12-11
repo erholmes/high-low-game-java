@@ -7,6 +7,7 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
+//this displays the game over page.
 public class GameOver extends Activity {
 	
 	@Override

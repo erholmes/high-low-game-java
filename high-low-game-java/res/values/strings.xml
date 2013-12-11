@@ -7,7 +7,9 @@
     <string name="edit_message">Enter a Number</string>
     <string name="high">High</string>
     <string name="low">Low</string>
-    <string name="gameover">Game Over</string>
+    <string name="help">Help</string>
+    <string name="play">Play</string>
+    <string name="gameover">You got 3 wrong. \n Game Over</string>
     <string name="playagain">Play Again</string>
     <string name="instructions">Guess if the next card drawn will be higher or lower. Get 3 answers wrong and the game is over!</string>
  
